@@ -29,7 +29,7 @@ public class CSSSelectorTagIdActivity {
 
     @Test
     public void CSSSelectorTagIdActivityTest() {
-        driver.get("https://automationteststore.com/index.php?rt=account/create");
+        driver.get("https://automationteststore.com/index.php?rt=account/create"); 
 
         // Localizar input de firstname usando CSS Selector tag y id
         WebElement firstname = driver.findElement(By.cssSelector("input#AccountFrm_firstname"));
